@@ -6,8 +6,8 @@
  */
 
 const settings = {
-  'app-id': '',
-  'app-key': ''
+  'app-id': process.env.ID,
+  'app-key': process.env.KEY
 };
 
 export default settings;
