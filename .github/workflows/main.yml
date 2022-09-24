@@ -36,4 +36,9 @@ jobs:
         
       - name: Run dev
         run: yarn dev
+        env:
+          CI: true
+          ID: ${{ secrets.ID}}
+          KEY: ${{ secrets.KEY}}
+          
     
