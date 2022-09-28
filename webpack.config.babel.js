@@ -15,7 +15,7 @@ module.exports = {
   devServer: {
     publicPath: '/public/',
     inline: true,
-    host: process.env.HOST
+    host: 'https://infermedica-symptom-health-bot-uu9w-d1vrqvp2y-hippyaki.vercel.app/'
   },
   resolve: {
     extensions: ['.js', '.json']
