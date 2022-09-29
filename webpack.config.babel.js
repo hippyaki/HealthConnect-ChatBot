@@ -4,6 +4,8 @@
 
 const path = require('path');
 
+const Dotenv = require('dotenv-webpack');
+
 module.exports = {
   context: __dirname,
   entry: './src/index.js',
@@ -12,6 +14,9 @@ module.exports = {
     path: path.join(__dirname, '/public'),
     filename: 'bundle.js'
   },
+  plugins: [
+    new Dotenv()
+  ],
   devServer: {
     allowedHosts: 'auto',
   },
@@ -23,6 +28,7 @@ module.exports = {
     reasons: true,
     chunks: false
   },
+  
   module: {
     rules: [
       {
