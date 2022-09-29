@@ -4,6 +4,7 @@
  * Please provide your own app-id and app-key below.
  * To obtain keys please register at https://developer.infermedica.com.
  */
+require("dotenv").config();
 
 const settings = {
   'app-id': process.env.ID,
