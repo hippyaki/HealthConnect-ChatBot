@@ -15,7 +15,7 @@ module.exports = {
   devServer: {
     publicPath: '/public/',
     inline: true,
-    port: '80'
+    port: 8008
   },
   resolve: {
     extensions: ['.js', '.json']
