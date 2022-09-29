@@ -13,9 +13,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    publicPath: '/public/',
-    inline: true,
-    port: 8008
+    allowedHosts: 'auto'
   },
   resolve: {
     extensions: ['.js', '.json']
