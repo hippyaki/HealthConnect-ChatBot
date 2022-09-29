@@ -13,7 +13,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    allowedHosts: 'auto'
+    allowedHosts: 'auto',
   },
   resolve: {
     extensions: ['.js', '.json']
