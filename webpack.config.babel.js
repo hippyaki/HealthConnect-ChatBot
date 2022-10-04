@@ -61,7 +61,13 @@ module.exports = {
       },
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'file-loader?name=[path][name].[ext]'
+        loader: 'file-loader?name=[path][name].[ext]',
+        options: {
+            name: "[name].[ext]",
+            outputPath: "fonts/", 
+            publicPath: "../fonts/"
+            }
+      },
       }
     ]
   }
