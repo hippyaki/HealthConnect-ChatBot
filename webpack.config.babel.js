@@ -52,7 +52,12 @@ module.exports = {
       },
       {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'url-loader?limit=10000&minetype=application/font-woff&name=[path][name].[ext]'
+        loader: 'url-loader?limit=10000&minetype=application/font-woff&name=[path][name].[ext]',
+        options: {
+            name: "[name].[ext]",
+            outputPath: "fonts/", 
+            publicPath: "../fonts/"
+            }
       },
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
