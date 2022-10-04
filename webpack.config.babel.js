@@ -38,15 +38,16 @@ module.exports = {
         loader: 'eslint-loader',
         enforce: 'pre',
         exclude: /node_modules/
-      }, {
+      }, 
+      {
         test: /\.js$/,
         loader: 'babel-loader',
         include: path.resolve(__dirname, 'src'),
         query: {
           plugins: ['@babel/transform-runtime'],
           presets: ['@babel/preset-env']
-        }
-      }, {
+       }
+  }, {
         test: /\.css$/,
         use: ['style-loader', {loader: 'css-loader'}]
       },
@@ -68,7 +69,8 @@ module.exports = {
             publicPath: "../fonts/"
             }
       }
-      }
+        
+      
     ]
   }
 };
