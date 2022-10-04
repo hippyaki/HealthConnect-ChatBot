@@ -67,7 +67,7 @@ module.exports = {
             outputPath: "fonts/", 
             publicPath: "../fonts/"
             }
-      },
+      }
       }
     ]
   }
