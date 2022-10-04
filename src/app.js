@@ -13,6 +13,8 @@ import Patient from './patient';
 
 require('../node_modules/bootstrap/dist/css/bootstrap.min.css');
 require('../node_modules/font-awesome/css/font-awesome.min.css');
+require('../node_modules/font-awesome/fonts/fontawesome-webfont.ttf');
+
 
 require('./styles/styles.css');
 
