@@ -48,17 +48,14 @@ module.exports = {
         }
       }, {
         test: /\.css$/,
-        include: path.resolve(__dirname, 'src'),
         use: ['style-loader', {loader: 'css-loader'}]
       },
       {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        include: path.resolve(__dirname, 'src'),
         loader: 'url-loader?limit=10000&minetype=application/font-woff&name=[path][name].[ext]'
       },
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        include: path.resolve(__dirname, 'src'),
         loader: 'file-loader?name=[path][name].[ext]'
       }
     ]
