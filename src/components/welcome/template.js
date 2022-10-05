@@ -5,37 +5,31 @@
 const template = (context) => {
   return new Promise((resolve) => {
     resolve(`
-      <h5 class="card-title">Welcome to the Symptom Checker Demo.</h5>
+      <h5 class="card-title">Terms & Conditions</h5>
       <div class="card-text">
         <p>
-          We created this example to help you work with our API, 
-          and show you how to implement a simple symptom checker &mdash; 
-          an application that mimics doctor's interview and gives you a preliminary diagnosis basing on 
-          our mathematical model.
+          
+          1. The information on this bot has been included in good faith for general informational purposes only. The bot may contain information submitted by a third party including adverts.
+
         </p>
         <p>
-          Visit our 
-          <i class="fa fa-github"></i> 
-          <a href="https://github.com/infermedica/js-symptom-checker-example">GitHub page</a> 
-          to grab the source code of this example as well as a guide on how to start working with it.
+          
+          2. The information should not be relied upon for any specific purpose and no representation or warranty is given as to its accuracy or completeness.
+
         </p>
         <p>
-          The most recent API documentation is always available on our 
-          <a href="https://developer.infermedica.com/docs/api">developer portal</a>.
+          
+          3. Any opinions (express or implied) are those of the AI Bot based on the structured code by Infermedica.
         </p>
         <p>
-          Please click 
-          <span class="badge badge-primary">Next</span> 
-          to move to the first question.
+          
+          4. Do not use make copies of the AI Bot. Developer source code available from official site of Infermedica.
+
         </p>
         <p class="text-muted small">
           <i class="fa fa-info-circle"></i> 
-          This is the welcome screen. In a real life scenario you will probably want to display T&C here. 
-          In the background, the new 
-          <a target="_blank" href="https://developer.infermedica.com/docs/diagnosis#helping-us-improve-the-engine">
-            Interview-Id
-          </a>
-          was created.</p>
+          Click on <span class="badge badge-primary">Next</span> button below to get started.
+        </p>
       </div>
     `);
   });
