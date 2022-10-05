@@ -6,9 +6,9 @@ const template = `
   <div class="card">
       <header class="card-header">
           <i class="fa fa-user-md"></i> 
-          Symptom Checker Example
+          HealthConnect MedChat
           <span class="d-none d-sm-block float-right text-muted">
-            powered by 
+            code by 
             <a href="http://infermedica.com/">
               Infermedica
             </a>
