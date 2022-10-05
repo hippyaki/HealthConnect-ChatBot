@@ -6,7 +6,7 @@ const template = `
   <div class="card">
       <header class="card-header">
           <i class="fa fa-user-md"></i> 
-          HealthConnect MedChat
+             HealthConnect MedChat
           <span class="d-none d-sm-block float-right text-muted">
             code by 
             <a href="http://infermedica.com/">
