@@ -39,14 +39,14 @@ button {
         border-radius: 14px 14px 0 0;
     }
     .card-header{
-        background-color: rgb(10, 37, 88);
+        background-color: #0A2558;
         color: white;
     }
     .card-footer:last-child {
         border-radius: 0 0 14px 14px;
     }
     .card-footer{
-        background-color: rgb(10, 37, 88);
+        background-color: #0A2558;
         color: white;
     }
     
