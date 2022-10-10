@@ -28,16 +28,8 @@ button {
     }
     
     div#app {
-        margin: 0px 25px;
-        padding: 0px 1;
-        display: flex;
-        /* background: #ffffff; */
         border-radius: 21px;
         box-shadow: 0 5px 10px rgb(0 0 0 / 16%);
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-content: stretch;
-        justify-content: space-around;
     }
 
     .main-container {
